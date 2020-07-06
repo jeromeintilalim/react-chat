@@ -1,0 +1,57 @@
+<Container>
+  <Row>
+    <Col id="colLeft">
+      <div className="mainLeft">
+        <img src={logo} />
+        <DetailsTextbox title="Name" />
+        <DetailsDropdown title="Age" />
+      </div>
+    </Col>
+    {/* <Col sm={4} id="colRight">
+      <div className="mainRight">
+        <h1>KANAN</h1>
+      </div>
+    </Col> */}
+  </Row>
+</Container>
+
+{/* <p style={{ display: "none" }} id="hide">Number of characters left <span id="num"></span></p> */}
+                                
+// function limit() {
+//     const cap = document.querySelector("#name")
+//     const hide = document.querySelector("#hide")
+//     if (hide != null) {
+//         hide.style.display = "block"
+//     }
+//     const asd = document.querySelector("#num").innerText = cap.value.length - 15
+// }
+
+<Container>
+  <Row>
+    <Col id="colLeft">
+      <div className="mainLeft">
+        <img src={logo} />
+        <DetailsTextbox title="Username:" />
+        <DetailsTextbox title="Password:" />
+      </div>
+    </Col>
+  </Row>
+</Container>
+
+
+.container {
+  margin-top: 10px;
+}
+
+#colLeft {
+  padding-right: 5px;
+}
+
+#colRight {
+  padding: 0px;
+}
+
+.mainRight {
+  height: 300px;
+  background-color: white;
+}

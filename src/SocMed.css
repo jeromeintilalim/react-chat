@@ -1,0 +1,54 @@
+a {
+    display: inline-block;
+}
+
+
+@media (max-width: 991px) {
+    .fa {
+        margin-left: 0px;
+    }
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding-top: 9px;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: -10px;
+    margin-left: 12px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }  
